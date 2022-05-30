@@ -1,13 +1,13 @@
 {
   "name": "@tachibana-shin/eslint-config",
-  "version": "1.0.0",
-  "description": "",
+  "description": "ESlint configure by @tachib_shin",
+  "version": "1.0.1",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Tachibana Shin",
   "license": "ISC",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.26.0",

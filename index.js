@@ -1,3 +1,4 @@
+const rulesCustom = require("./rules-custom");
 const rulesTs = require("./rules-ts");
 
 // eslint-disable-next-line functional/immutable-data
@@ -532,5 +533,6 @@ module.exports = {
     "n/no-unsupported-features/es-syntax": "off",
     "n/no-missing-import": "off",
     ...rulesTs,
+    ...rulesCustom,
   },
 };
