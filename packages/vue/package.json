@@ -1,20 +1,19 @@
 {
-   "name": "@tachibana-shin/eslint-config-vue",
-   "description": "ESlint configure by @tachib_shin",
-   "version": "1.0.2",
-   "main": "index.js",
-   "scripts": {
-     "test": "node index.js"
-   },
-   "keywords": [],
-   "author": "Tachibana Shin",
-   "license": "ISC",
-   "dependencies": {
-     "@tachibana-shin/eslint-config": "*"
-   },
-   "peerDependencies": {
-     "eslint": ">=8.16.0",
-     "typescript": ">=4.5"
-   }
- }
- 
+  "name": "@tachibana-shin/eslint-config-vue",
+  "description": "ESlint configure by @tachib_shin",
+  "version": "1.0.3",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [],
+  "author": "Tachibana Shin",
+  "license": "ISC",
+  "dependencies": {
+    "@tachibana-shin/eslint-config": "*"
+  },
+  "peerDependencies": {
+    "eslint": ">=8.16.0",
+    "typescript": ">=4.5"
+  }
+}
