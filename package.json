@@ -1,6 +1,6 @@
 {
   "name": "@tachibana-shin/eslint-config",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "private": true,
   "scripts": {
     "release": "pnpm test && bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish --access public",
