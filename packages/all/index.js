@@ -35,6 +35,7 @@ module.exports = {
   },
   rules: {
     "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/no-misused-promises": "error",
     "eslint-comments/disable-enable-pair": [
       "error",
       {

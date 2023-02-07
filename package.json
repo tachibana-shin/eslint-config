@@ -7,7 +7,7 @@
     "test": "pnpm -r --stream run test"
   },
   "devDependencies": {
-    "bumpp": "^7.1.1"
+    "bumpp": "^8.2.1"
   },
   "engines": {
     "node": ">=10"
