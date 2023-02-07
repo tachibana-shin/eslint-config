@@ -10,11 +10,11 @@
   "author": "Tachibana Shin",
   "license": "ISC",
   "dependencies": {
-    "@tachibana-shin/eslint-config": "^1.0.5",
-    "@typescript-eslint/eslint-plugin": "^5.32.0",
-    "@typescript-eslint/parser": "^5.32.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-vue": "^9.3.0"
+    "@tachibana-shin/eslint-config": "workspace:^1.0.7",
+    "@typescript-eslint/eslint-plugin": "^5.51.0",
+    "@typescript-eslint/parser": "^5.51.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-vue": "^9.9.0"
   },
   "peerDependencies": {
     "eslint": ">=8.16.0",
