@@ -7,7 +7,9 @@
     "test": "pnpm -r --stream run test"
   },
   "devDependencies": {
-    "bumpp": "^8.2.1"
+    "bumpp": "^8.2.1",
+    "eslint": "^8.34.0",
+    "typescript": "^4.9.5"
   },
   "engines": {
     "node": ">=10"

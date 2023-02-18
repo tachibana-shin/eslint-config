@@ -1,16 +1,16 @@
 module.exports = {
   "@typescript-eslint/ban-ts-comment": [
     "error",
-    { "ts-ignore": "allow-with-description" },
+    { "ts-ignore": "allow-with-description" }
   ],
   "@typescript-eslint/member-delimiter-style": [
     "error",
-    { multiline: { delimiter: "none" } },
+    { multiline: { delimiter: "none" } }
   ],
   "@typescript-eslint/type-annotation-spacing": ["error", {}],
   "@typescript-eslint/consistent-type-imports": [
     "error",
-    { prefer: "type-imports", disallowTypeAnnotations: false },
+    { prefer: "type-imports", disallowTypeAnnotations: false }
   ],
   "@typescript-eslint/consistent-type-definitions": ["error", "interface"],
   "@typescript-eslint/consistent-indexed-object-style": ["error", "record"],
@@ -24,15 +24,15 @@ module.exports = {
     {
       anonymous: "always",
       named: "never",
-      asyncArrow: "always",
-    },
+      asyncArrow: "always"
+    }
   ],
   "space-infix-ops": "off",
   "@typescript-eslint/space-infix-ops": "error",
   "keyword-spacing": "off",
   "@typescript-eslint/keyword-spacing": [
     "error",
-    { before: true, after: true },
+    { before: true, after: true }
   ],
   "comma-spacing": "off",
   "@typescript-eslint/comma-spacing": ["error", { before: false, after: true }],
@@ -46,6 +46,6 @@ module.exports = {
   "@typescript-eslint/lines-between-class-members": [
     "error",
     "always",
-    { exceptAfterSingleLine: true },
-  ],
-};
+    { exceptAfterSingleLine: true }
+  ]
+}
